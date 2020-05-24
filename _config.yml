@@ -17,7 +17,7 @@ locale                   : "en-US"
 title                    : "Ranjeet Dhumal"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Ranjeet Dhumal"
+name                     : "Data"
 description              : "Portfolio website"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
