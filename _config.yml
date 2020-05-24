@@ -90,8 +90,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ranjeet Dhumal"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  #name             : "Ranjeet Dhumal"
+  avatar           : "assets/images/profile_ranjeet.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Welcome to my website"
   location         : "Pune, Maharashtra, India"
   email            :
