@@ -14,7 +14,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ranjeet Dhumal"
+#title                    : "Ranjeet Dhumal"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Ranjeet Dhumal"
@@ -90,7 +90,7 @@ analytics:
 
 # Site Author
 author:
-  #name             : "Ranjeet Dhumal"
+  name             : "Ranjeet Dhumal"
   avatar           : "/assets/images/profile_ranjeet.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Welcome to my website"
   location         : "Pune, Maharashtra, India"
