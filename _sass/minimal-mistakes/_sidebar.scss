@@ -114,12 +114,17 @@
    Author profile and links
    ========================================================================== */
 
+.author__itemscope {
+  padding: 0.5rem;
+}
+
 .author__avatar {
   display: table-cell;
   vertical-align: top;
   width: 36px;
   height: 36px;
   margin: 0 auto;
+  text-align: center;
 
   @include breakpoint($large) {
     display: block;
@@ -144,6 +149,7 @@
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
+  text-align: center;
 
   @include breakpoint($large) {
     display: block;
@@ -188,6 +194,7 @@
   z-index: 20;
   position: relative;
   cursor: pointer;
+  text-align: center;
 
   li:last-child {
     a {
