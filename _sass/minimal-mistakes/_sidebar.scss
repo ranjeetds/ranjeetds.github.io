@@ -41,7 +41,7 @@
   }
 
   > * {
-    margin-top: 1em;
+    margin-top: 1.5em;
     margin-bottom: 1em;
   }
 
@@ -119,6 +119,7 @@
   vertical-align: top;
   width: 36px;
   height: 36px;
+  align-items: center;
 
   @include breakpoint($large) {
     display: block;
