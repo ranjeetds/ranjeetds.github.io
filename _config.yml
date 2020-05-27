@@ -94,7 +94,8 @@ author:
   avatar           : "/assets/images/profile_ranjeet.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Lifelong learner, who spends most of the time to learn new things and reading. I have 4+ years of experience working as Data Scientist and with this website I will try to give something back data community."
   location         : "Pune, Maharashtra, India"
-  email            :
+  email            : "ranjeetrdhumal@gmail.com"
+  resume_path      : "https://github.com/ranjeetds/ranjeetds.github.io/raw/master/assets/Ranjeet_Dhumal_resume.pdf"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
