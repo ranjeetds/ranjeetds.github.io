@@ -181,12 +181,13 @@
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-6;
+  font-size: $type-size-3;
+  font-weight: lighter;
 }
 
 .author__bio {
   margin: 0;
-  font-size: $type-size-6;
+  font-size: $type-size-4;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -205,7 +206,8 @@
   text-align: center;
 
   ul {
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
   li {
@@ -334,7 +336,7 @@
     padding-top: 2px;
     padding-bottom: 2px;
     color: inherit;
-    font-size: $type-size-8;
+    font-size: $type-size-6;
     text-decoration: none;
 
     &:hover {
