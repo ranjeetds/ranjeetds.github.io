@@ -19,7 +19,10 @@
   {% if author.resume_path %}
   <div class="container">
     <article class="card">
-      <a href="{{ author.resume_path }}" class="card__link">
+      {%- for link in site.data.navigation.resume -%}
+        <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %} class="card__link">
+      {%- endfor -%}
+      <!-- <a href="{{ author.resume_path }}" class="card__link"> -->
       
         <!-- Header -->
         <div class="card__header">
