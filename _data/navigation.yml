@@ -10,7 +10,3 @@ main:
     url: /collection-archive/
   - title: "Contact"
     url: /sitemap/
-
-resume:
-  - title: "Resume"
-    url: /resume-view/
