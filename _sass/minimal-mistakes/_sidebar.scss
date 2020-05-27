@@ -119,7 +119,7 @@
   // padding-bottom: 1.5em;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 0.5rem;
+  // border-radius: 0.5rem;
   width: 90%;
   margin: 0 auto;
   margin-top: 1.5em;
@@ -394,7 +394,8 @@
   width: 90%;
 	background-color: #292929;
 	transition: all .3s ease-in-out;
-	
+  margin: 0 auto;
+  
 	&:hover {
 		box-shadow: 0 10px 20px 10px rgba(black, .2);
 	}
