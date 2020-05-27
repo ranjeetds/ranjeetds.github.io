@@ -181,13 +181,14 @@
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-3;
-  font-weight: lighter;
+  font-size: $type-size-5;
+  font-weight: normal;
 }
 
 .author__bio {
   margin: 0;
-  font-size: $type-size-4;
+  font-size: $type-size-6;
+  font-weight: normal;
 
   @include breakpoint($large) {
     margin-top: 10px;
