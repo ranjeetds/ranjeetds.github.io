@@ -16,6 +16,8 @@
     {% endif %}
   {% endif %}
 
+  {% if author.resume_path %}
+  <a href="{{ author.resume_path }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
   <div class="container">
     <article class="card">
       <a href="#" class="card__link">
@@ -24,13 +26,9 @@
         <div class="card__header">
           <h3 class="card__header-title">Resume</h3>
 
-          {% if author.resume_path %}
-            <li>
-              <a href="{{ author.resume_path }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          
                 <p class="card__header-meta">Download now</p>
-              </a>
-            </li>
-          {% endif %}
+              
           
           <div class="card__header-icon">
             <svg viewbox="0 0 28 25">
@@ -42,6 +40,8 @@
       </a>
     </article>
   </div>
+</a>
+{% endif %}
 
 
   </div>
