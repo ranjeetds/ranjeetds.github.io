@@ -6,7 +6,7 @@ description: Hello there! I am Omkar Pathak, a software developer by profession,
 Hi! I am Ranjeet Dhumal, a physicist turned Data scientist. My true passion lies in tech, I am on course of building innovative solutions to the common problems i have.
 image: 
 ---
-
+<div class="contact-container" style="padding: 10%">
 <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
 <p style="margin-bottom: 20px; margin-top: 5%">
@@ -21,11 +21,16 @@ image:
   <input type="text" name="name" value="Jon Doe" />
   <input type="email" name="email" value="JonDoe@example.com" />
 
+  <label>Message</label>
+  <textarea class="form-control" name="message" rows="5" required></textarea>
+
   <!-- This button will have a loading spinner. Keep the inner span for best results. -->
   <button type="submit" class="pageclip-form__submit">
+
+
     <span>Send</span>
   </button>
 </form>
-
+</div>
 
 <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
