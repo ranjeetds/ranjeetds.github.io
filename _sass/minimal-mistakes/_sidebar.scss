@@ -442,14 +442,14 @@
 // Thought verse
 // #########################################################################
 
-.wrapper {
+.wrapper_thoughtverse {
   position: relative;
   perspective: 40em;
   display: grid;
   transform-style: preserve-3d;
 }
 
-.card {
+.card_thoughtverse {
   grid-area: 1 / 1;
   height: 80%;
   width: 80%;
@@ -467,12 +467,7 @@
   box-shadow: 0 10px 30px -3px rgba(0,0,0,.1);
 }
 
-h1 {
-  font-size: 60px;
-  font-weight: 900;
-}
-
-.card .enclosed {
+.card_thoughtverse .enclosed {
   background: #000;
   line-height: 1;
   color: rgba(249, 198, 26, 1);
@@ -482,7 +477,7 @@ h1 {
   transform-origin: right center;
 }
 
-.wrapper:before {
+.wrapper_thoughtverse:before {
   --bw: 9px;
   grid-area: 1 / 1;
   content: '';
@@ -499,14 +494,14 @@ h1 {
 }
 
 
-.wrapper:hover > div,
-.wrapper:hover:before {
+.wrapper_thoughtverse:hover > div,
+.wrapper_thoughtverse:hover:before {
   transform: none;
 }
 
 
-.wrapper > div,
-.wrapper:before {
+.wrapper_thoughtverse > div,
+.wrapper_thoughtverse:before {
   will-change: transform;
   transition: .3s transform cubic-bezier(.25,.46,.45,1);
 }
