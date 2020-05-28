@@ -451,8 +451,8 @@
 
 .card {
   grid-area: 1 / 1;
-  height: 200px;
-  width: 400px;
+  height: 80%;
+  width: 80%;
   transform: translateX(10px) rotateY(25deg) rotateX(10deg);
   background: rgba(249, 198, 26, 0.88);
   display: flex;
