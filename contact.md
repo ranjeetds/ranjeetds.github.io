@@ -10,16 +10,16 @@ image:
 <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
 <p style="margin-bottom: 20px; margin-top: 5%">
-  Need help? Want to hire me as a freelancer for your work? Feel free to contact me and I would be happy to help!
+  Need any help! Need guidance or want to hire me as a freelancer to solve your data science problems? Feel free to contact me!
   <br />
-  Mail: <a href="mailto: omkarpathak27@gmail.com">omkarpathak27@gmail.com</a>
+  Mail: <a href="mailto: ranjeetrdhumal@gmail.com">ranjeetrdhumal@gmail.com</a>
 </p>
 
 
 <form action="https://send.pageclip.co/e2TUwEvhK2WOH1ho4rSKhmtB8zfxxfPQ" class="pageclip-form" method="post">
   <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
-  <input type="text" name="name" value="Roscoe Jones" />
-  <input type="email" name="email" value="roscoe@example.com" />
+  <input type="text" name="name" value="Jon Doe" />
+  <input type="email" name="email" value="JonDoe@example.com" />
 
   <!-- This button will have a loading spinner. Keep the inner span for best results. -->
   <button type="submit" class="pageclip-form__submit">
