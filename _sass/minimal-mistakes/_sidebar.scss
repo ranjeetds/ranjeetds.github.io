@@ -442,67 +442,85 @@
 // Thought verse
 // #########################################################################
 
-.wrapper_thoughtverse {
+.container .card{
   position: relative;
-  perspective: 40em;
-  display: grid;
-  transform-style: preserve-3d;
+  cursor: pointer;
 }
 
-.card_thoughtverse {
-  grid-area: 1 / 1;
-  transform: translateX(10px) rotateY(25deg) rotateX(10deg);
-  background: rgba(249, 198, 26, 0.88);
+.container .card .face{
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.container .card .face.face1{
+  position: relative;
+  background: #333;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  padding: 0 30px 0 0;
-  color: #000;
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 500;
-  backface-visibility: hidden;
-  box-shadow: 0 10px 30px -3px rgba(0,0,0,.1);
+  z-index: 1;
+  transform: translateY(100px);
 }
 
-h1 {
-  font-size: 30px;
-  font-weight: 500;
+.container .card:hover .face.face1{
+  background: #ff0057;
+  transform: translateY(0);
 }
 
-.card_thoughtverse .enclosed_thoughtverse {
-  background: #000;
-  line-height: 1;
-  color: rgba(249, 198, 26, 1);
-  padding: 0 0px;
-  display: inline-block;
-  transform: translate(-1px, 1px) scale(0.75);
-  transform-origin: right center;
+.container .card .face.face1 .content{
+  opacity: 0.2;
+  transition: 0.5s;
 }
 
-.wrapper_thoughtverse:before {
-  --bw: 4px;
-  grid-area: 1 / 1;
-  content: '';
-  backface-visibility: hidden;
-  height: 100%;
-  width: 100%;
-  margin-top: calc(-1 * var(--bw));
-  margin-left: calc(-1 * var(--bw));
-  background: transparent;
-  transform: translateX(-60px) rotateY(-30deg) rotateX(15deg) scale(1.03);
-  pointer-events: none;
-  border: var(--bw) solid #000;
-  box-sizing: content-box;
+.container .card:hover .face.face1 .content{
+  opacity: 1;
 }
 
-.wrapper_thoughtverse:hover > div,
-.wrapper_thoughtverse:hover:before {
-  transform: none;
+.container .card .face.face1 .content img{
+  max-width: 100px;
 }
 
-.wrapper_thoughtverse > div,
-.wrapper_thoughtverse:before {
-  will-change: transform;
-  transition: .3s transform cubic-bezier(.25,.46,.45,1);
+.container .card .face.face1 .content h3{
+  margin: 10px 0 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.container .card .face.face2{
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+  transform: translateY(0);
+}
+
+.container .card .face.face2 .content p{
+  margin: 0;
+  padding: 0;
+}
+
+.container .card .face.face2 .content a{
+  margin: 15px 0 0;
+  display:  inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #333;
+}
+
+.container .card .face.face2 .content a:hover{
+  background: #333;
+  color: #fff;
 }
