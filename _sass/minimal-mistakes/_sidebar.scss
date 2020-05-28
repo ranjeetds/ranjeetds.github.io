@@ -451,34 +451,37 @@
 
 .card_thoughtverse {
   grid-area: 1 / 1;
-  height: 80%;
-  width: 80%;
   transform: translateX(10px) rotateY(25deg) rotateX(10deg);
   background: rgba(249, 198, 26, 0.88);
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 10px;
+  padding: 0 30px 0 0;
   color: #000;
   text-transform: uppercase;
   font-size: 20px;
-  font-weight: 50;
+  font-weight: 500;
   backface-visibility: hidden;
   box-shadow: 0 10px 30px -3px rgba(0,0,0,.1);
 }
 
-.card_thoughtverse .enclosed {
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.card_thoughtverse .enclosed_thoughtverse {
   background: #000;
   line-height: 1;
   color: rgba(249, 198, 26, 1);
-  padding: 0 5px;
+  padding: 0 0px;
   display: inline-block;
   transform: translate(-1px, 1px) scale(0.75);
   transform-origin: right center;
 }
 
 .wrapper_thoughtverse:before {
-  --bw: 5px;
+  --bw: 4px;
   grid-area: 1 / 1;
   content: '';
   backface-visibility: hidden;
@@ -487,18 +490,16 @@
   margin-top: calc(-1 * var(--bw));
   margin-left: calc(-1 * var(--bw));
   background: transparent;
-  transform: translateX(-10px) rotateY(-30deg) rotateX(15deg) scale(1.03);
+  transform: translateX(-60px) rotateY(-30deg) rotateX(15deg) scale(1.03);
   pointer-events: none;
   border: var(--bw) solid #000;
   box-sizing: content-box;
 }
 
-
 .wrapper_thoughtverse:hover > div,
 .wrapper_thoughtverse:hover:before {
   transform: none;
 }
-
 
 .wrapper_thoughtverse > div,
 .wrapper_thoughtverse:before {
