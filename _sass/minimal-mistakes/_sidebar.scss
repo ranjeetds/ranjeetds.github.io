@@ -442,83 +442,80 @@
 // Thought verse
 // #########################################################################
 
-.container_thoughtverse .card_thoughtverse{
-  position: relative;
-  cursor: pointer;
-}
 
-.container_thoughtverse .card_thoughtverse .face{
-  width: 80%;
-  transition: 0.5s;
+.gradient-45deg-light-blue-cyan{
+  background: #0288d1;
+  background: -webkit-linear-gradient(45deg, #0288d1 0%, #26c6da 100%);
+  background: linear-gradient(45deg, #0288d1 0%, #26c6da 100%);
 }
-
-.container_thoughtverse .card_thoughtverse .face.face1{
-  position: relative;
-  background: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  transform: translateY(100px);
-  text-align: center;
+.gradient-45deg-red-pink.gradient-shadow{
+  box-shadow: 0 6px 20px 0 rgba(244, 143, 177, 0.5);
 }
-
-.container_thoughtverse .card_thoughtverse:hover .face.face1{
-  background: #ff0057;
-  transform: translateY(0);
+.gradient-45deg-red-pink{
+  background: #FF5252;
+  background: -webkit-linear-gradient(45deg, #FF5252 0%, #f48fb1 100%);
+  background: linear-gradient(45deg, #FF5252 0%, #f48fb1 100%);
 }
-
-.container_thoughtverse .card_thoughtverse .face.face1 .content{
-  opacity: 0.2;
-  transition: 0.5s;
+.gradient-45deg-amber-amber.gradient-shadow{
+  box-shadow: 0 6px 20px 0 rgba(255, 111, 0, 0.3);
 }
-
-.container_thoughtverse .card_thoughtverse:hover .face.face1 .content{
-  opacity: 1;
+.gradient-45deg-amber-amber{
+  background: #ff6f00;
+  background: -webkit-linear-gradient(45deg, #ff6f00 0%, #ffca28 100%);
+  background: linear-gradient(45deg, #ff6f00 0%, #ffca28 100%);
 }
-
-.container_thoughtverse .card_thoughtverse .face.face1 .content img{
-  max-width: 100px;
+.gradient-45deg-green-teal.gradient-shadow{
+  box-shadow: 0 6px 20px 0 rgba(77, 182, 172, 0.5);
 }
-
-.container_thoughtverse .card_thoughtverse .face.face1 .content h3{
-  margin: 10px 0 0;
-  padding: 0;
-  color: #fff;
-  text-align: center;
-  font-size: 1.5em;
+.gradient-45deg-light-blue-cyan.gradient-shadow{
+  box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5);
 }
-
-.container_thoughtverse .card_thoughtverse .face.face2{
-  position: relative;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  transform: translateY(-100px);
+.gradient-45deg-green-teal {
+  background: #43A047;
+  background: -webkit-linear-gradient(45deg, #43A047 0%, #1de9b6 100%);
+  background: linear-gradient(45deg, #43A047 0%, #1de9b6 100%);
 }
-
-.container_thoughtverse .card_thoughtverse:hover .face.face2{
-  transform: translateY(0);
+.gradient-45deg-purple-deep-orange {
+  background: #8e24aa;
+  background: -webkit-linear-gradient(45deg, #8e24aa 0%, #ff6e40 100%);
+  background: linear-gradient(45deg, #8e24aa 0%, #ff6e40 100%);
 }
-
-.container_thoughtverse .card_thoughtverse .face.face2 .content p{
-  margin: 0;
-  padding: 0;
+.gradient-45deg-blue-indigo {
+  background: #2962FF;
+  background: -webkit-linear-gradient(45deg, #2962FF 0%, #3949ab 100%);
+  background: linear-gradient(45deg, #2962FF 0%, #3949ab 100%);
 }
-
-.container_thoughtverse .card_thoughtverse .face.face2 .content a{
-  margin: 15px 0 0;
-  display:  inline-block;
-  text-decoration: none;
-  font-weight: 900;
-  color: #ff0057;
-  padding: 5px;
-  border: 1px solid #333;
+.gradient-45deg-deep-orange-orange {
+  background: #bf360c;
+  background: -webkit-linear-gradient(45deg, #bf360c 0%, #f57c00 100%);
+  background: linear-gradient(45deg, #bf360c 0%, #f57c00 100%);
 }
-
-.container_thoughtverse .card_thoughtverse .face.face2 .content a:hover{
-  background: #333;
-  color: #fff;
+.gradient-45deg-purple-deep-purple {
+  background: #7b1fa2;
+  background: -webkit-linear-gradient(45deg, #7b1fa2 0%, #7c4dff 100%);
+  background: linear-gradient(45deg, #7b1fa2 0%, #7c4dff 100%);
+}
+.gradient-45deg-deep-orange-orange.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(245, 124, 0, 0.5);
+}
+.gradient-45deg-blue-indigo.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(57, 73, 171, 0.5);
+}
+.gradient-45deg-purple-deep-orange.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(255, 110, 64, 0.5);
+}
+.gradient-45deg-purple-deep-purple.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(124, 77, 255, 0.5);
+}
+.width-40 {
+  width: 40% !important;
+}
+.border-round {
+  border-radius: 50% !important;
+}
+.z-depth-5 {
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+}
+.card{
+font-family:'Roboto','Product Sans';
 }
