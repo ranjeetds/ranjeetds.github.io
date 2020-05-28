@@ -6,7 +6,7 @@ description: Hello there! I am Omkar Pathak, a software developer by profession,
 Hi! I am Ranjeet Dhumal, a physicist turned Data scientist. My true passion lies in tech, I am on course of building innovative solutions to the common problems i have.
 image: 
 ---
-<div class="contact-container" style="padding: 10%">
+<div class="contact-container" style="padding: 10%, padding-top: 2%">
 <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
 <p style="margin-bottom: 20px; margin-top: 5%">
