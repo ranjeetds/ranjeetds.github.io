@@ -7,8 +7,6 @@
    ========================================================================== */
 
 .sidebar {
-  position: -webkit-sticky;
-  position: sticky;
 
   @include clearfix();
   // @include breakpoint(max-width $large) {
