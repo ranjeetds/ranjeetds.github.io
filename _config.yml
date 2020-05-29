@@ -98,10 +98,10 @@ author:
   resume_path      : "https://github.com/ranjeetds/ranjeetds.github.io/raw/master/assets/Ranjeet_Dhumal_resume.pdf"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fab fa-fw fa-envelope-square"
       url: "mailto:ranjeetrdhumal@gmail.com"
     - label: "Website"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-fw fa-link"
       url: "https://ranjeetdhumal.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
