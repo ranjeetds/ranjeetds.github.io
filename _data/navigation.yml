@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "Learn data science"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    url: "/guides/"
   - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: "/about/"
   - title: "Blog"
     url: /year-archive/
   - title: "Datasets"
