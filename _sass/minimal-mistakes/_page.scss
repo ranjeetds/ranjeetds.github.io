@@ -568,36 +568,36 @@ body {
 //     font-size:14px;
 //   }
 
-p, ol, li {
-    text-align:left;
-    color:#3C4043;
-  }
+// p, ol, li {
+//     text-align:left;
+//     color:#3C4043;
+//   }
   
-ol.styled-ol li:last-child {
-    border-bottom:none;
-  }
+// ol.styled-ol li:last-child {
+//     border-bottom:none;
+//   }
   
-ol.styled-ol {
-    list-style-type: none;
+// ol.styled-ol {
+//     list-style-type: none;
      
-    margin: 0;
-    margin-left: 0em;
-    padding: 0;
+//     margin: 0;
+//     margin-left: 0em;
+//     padding: 0;
      
-    counter-reset: li-counter;
-}
-ol.styled-ol li{
-    border-bottom:1px solid #E1E6EB;
-    padding:10px 0 12px 0;
-}
-ol.styled-ol li:before {
-    font-family: 'Open Sans';
-    font-size: 18px;
-    font-weight: 400;
-    color: #acb4be;
-    margin:0 25px 0 0;
+//     counter-reset: li-counter;
+// }
+// ol.styled-ol li{
+//     border-bottom:1px solid #E1E6EB;
+//     padding:10px 0 12px 0;
+// }
+// ol.styled-ol li:before {
+//     font-family: 'Open Sans';
+//     font-size: 18px;
+//     font-weight: 400;
+//     color: #acb4be;
+//     margin:0 25px 0 0;
  
-    content: counter(li-counter);
-    counter-increment: li-counter;
+//     content: counter(li-counter);
+//     counter-increment: li-counter;
     
-}
+// }
