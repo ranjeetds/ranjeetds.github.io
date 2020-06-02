@@ -1,7 +1,9 @@
-Hello world
-{%- for bullet_point in site.data.career.main -%}
-  <ol class="styled-ol">
-    <li>test: {{ bullet_point.point }}</li>
-    <!-- <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a> -->
-  </li>
-{%- endfor -%}
+<div class="portfolio-sticky">
+    Hello world
+    {%- for bullet_point in site.data.career.main -%}
+    <ol class="styled-ol">
+        <li>test: {{ bullet_point.point }}</li>
+        <!-- <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a> -->
+    </li>
+    {%- endfor -%}
+</div>
