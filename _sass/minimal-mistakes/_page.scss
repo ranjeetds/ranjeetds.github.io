@@ -561,9 +561,9 @@ body {
 portfolio-sticky {
   font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   -webkit-font-smoothing:antialiased;
-  font-size:14px;
+  font-size:10px;
   float: left;
-  min-width: calc(80em- #{$right-sidebar-width} - 1em);
+  max-width: calc(80em- #{$right-sidebar-width} - 1em);
 }
 
 p, ol, li {
