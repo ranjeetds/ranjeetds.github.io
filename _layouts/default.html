@@ -20,6 +20,18 @@
     {% include_cached masthead.html %}
 
     <div class="initial-content">
+
+      <div class="wrapper">
+        <div class="left-div">
+          {% include portfolio.html %}
+          Hello world
+        </div>
+        <div class="right-div">
+          Hello
+          {{ content }}
+        </div>
+      </div>
+
       {{ content }}
     </div>
 
