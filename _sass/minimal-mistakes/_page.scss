@@ -606,10 +606,9 @@ ol.styled-ol li:before {
 // =================================================================
 
 .home_content {
-  width: calc(1280px - 350px + 1em);
-  background-color: yellow;
+  width: calc(1280px - 350px 1 1em);
   float: left;
-  top: 2em;
+  margin-top: 2em !important;
 }
 .sidebar_content {
   float: left;
