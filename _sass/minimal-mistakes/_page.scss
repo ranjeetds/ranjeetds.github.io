@@ -606,7 +606,7 @@ ol.styled-ol li:before {
 // =================================================================
 
 .home_content {
-  width: 500px;
+  width: calc(1280px - 350px + 1em);
   background-color: yellow;
   float: left;
   top: 2em;
