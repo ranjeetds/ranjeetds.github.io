@@ -5,3 +5,10 @@ main:
   - point: "4+ years of experience"
   - point: "An avid reader"
 
+cards:
+  - title: "Card 1"
+    subtitle: "Card 1 subtitle"
+    img: "Img path"
+  - title: "Card 2"
+    subtitle: "Card 2 subtitle"
+    img: "Img path"

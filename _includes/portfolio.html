@@ -10,15 +10,21 @@
     </ol>
 
     <div class="shortcut_cards">
-        <div class="col s12 m3 card_1">
-            <div class="card gradient-shadow gradient-45deg-amber-amber  border-radius-3">
-                <div class="card-content center">
-                    <img src="https://image.flaticon.com/icons/svg/181/181770.svg" class="width-40 border-round z-depth-5">
-                    <h5 class="white-text lighten-4">THOUGHT VERSE</h5>
-                    <p class="white-text lighten-4">Universe of my thoughts</p>
+        {%- for cards_data in site.data.career.cards -%}
+            <div class="col s12 m3 card_1">
+                <div class="card gradient-shadow gradient-45deg-amber-amber  border-radius-3">
+                    <div class="card-content center">
+                        <div class="floating_left">
+                            <img src="{{ cards_data.img }}" class="width-40 border-round z-depth-5">
+                        </div>
+                        <div>
+                            <h5 class="white-text lighten-4">{{ cards_data.title }}</h5>
+                            <p class="white-text lighten-4">{{ cards_data.subtitle }}</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        {%- endfor -%}
     </div>
 
 </div>
