@@ -1,9 +1,24 @@
 <div class="portfolio-sticky">
+
     <h4 style="font-weight: 600;">Highlights </h4>
+
     <ol class="styled-ol">
         {%- for bullet_point in site.data.career.main -%}
         <li>{{ bullet_point.point }}</li>
         {%- endfor -%}
         <!-- <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a> -->
-    </li>
+    </ol>
+
+    <div class="shortcut_cards">
+        <div class="col s12 m3 card_1">
+            <div class="card gradient-shadow gradient-45deg-amber-amber  border-radius-3">
+                <div class="card-content center">
+                    <img src="https://image.flaticon.com/icons/svg/181/181770.svg" class="width-40 border-round z-depth-5">
+                    <h5 class="white-text lighten-4">THOUGHT VERSE</h5>
+                    <p class="white-text lighten-4">Universe of my thoughts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
