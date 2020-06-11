@@ -16,5 +16,5 @@ cards:
     subtitle: "Curated list of papers and leanring resources"
     img: "Img path"
   - title: "Github repositories"
-    subtitles: "Self curated list of repositories"
+    subtitle: "Self curated list of repositories"
     img: "Img path"
