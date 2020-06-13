@@ -637,12 +637,14 @@ ol.styled-ol li:before {
 
 .card_class {
   @include breakpoint($large) {
-    width: 90%;
-    padding-top: 1em;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
 
   @include breakpoint($x-large) {
-    width: 90%;
-    padding-top: 1em;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
 }
