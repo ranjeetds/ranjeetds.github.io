@@ -634,3 +634,15 @@ ol.styled-ol li:before {
   height: 4em;
   margin-left: -2em;
 }
+
+.card_class {
+  @include breakpoint($large) {
+    width: 90%;
+    padding-top: 1em;
+  }
+
+  @include breakpoint($x-large) {
+    width: 90%;
+    padding-top: 1em;
+  }
+}
