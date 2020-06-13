@@ -611,11 +611,42 @@ ol.styled-ol li:before {
   margin-top: 3em !important;
   font-size: 15px;
   // padding: 5px 0 5px 0;
+
+
+  @include clearfix();
+  @include breakpoint(max-width $large) {
+    /* fix z-index order of follow links */
+    position: relative;
+    z-index: 10;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  @include breakpoint($large) {
+    float: right;
+    width: calc(#{$right-sidebar-width} - 1em);
+    opacity: 0.90;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &.sticky {
+      overflow-y: auto;
+      /* calculate height of nav list
+         viewport height - nav height - masthead x-padding
+      */
+      height: calc(100vh - #{$nav-height} - 2em);
+    }
 }
+
 .sidebar_content {
   float: left;
   width: calc(350px - 1em);
 }
+
 
 
 // =================================================================
@@ -635,16 +666,16 @@ ol.styled-ol li:before {
   margin-left: -2em;
 }
 
-.card_class {
-  @include breakpoint($large) {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
+// .card_class {
+//   @include breakpoint($large) {
+//     width: 100%;
+//     display: block;
+//     margin-bottom: 20px;
+//   }
 
-  @include breakpoint($x-large) {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
+//   @include breakpoint($x-large) {
+//     width: 100%;
+//     display: block;
+//     margin-bottom: 20px;
+//   }
+// }
