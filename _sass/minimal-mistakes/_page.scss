@@ -622,7 +622,7 @@ ol.styled-ol li:before {
   }
 
   @include breakpoint($large) {
-    width: calc(#{$right-sidebar-width} - 1em);
+    width: calc($large - #{$right-sidebar-width} - 1em);
     opacity: 0.90;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
