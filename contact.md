@@ -9,7 +9,7 @@ image:
 <div class="contact-container" style="padding: 10%, padding-top: 2%">
 <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
-<p style="margin-bottom: 20px; margin-top: 5%">
+<p style="margin-bottom: 20px; margin-top: 5%; padding: 10%">
   Need any help! Need guidance or want to hire me as a freelancer to solve your data science problems? Feel free to contact me!
   <br />
   Mail: <a href="mailto: ranjeetrdhumal@gmail.com">ranjeetrdhumal@gmail.com</a>
